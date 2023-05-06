@@ -744,6 +744,12 @@ button {
 .modal-form {
   color: var(--light-slate);
 }
+.form {
+  margin-bottom: 8px;
+}
+.form:last-child {
+  margin-bottom: 0px;
+}
 .modal-form-label {
   display: block;
   margin-bottom: 4px;
@@ -753,7 +759,7 @@ button {
 }
 .modal-form-field {
   position: relative;
-  margin-bottom: 8px;
+  
 }
 .modal-form-input {
   width: 100%;
@@ -798,7 +804,7 @@ button {
   outline-offset: -2px;
 
   transition: fill var(--transition-duration-and-func);
-  margin-bottom: 16px;
+  
 
   resize: none;
 }
